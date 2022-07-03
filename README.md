@@ -1,2 +1,2 @@
 # July---Study
- this is the planning
+For the front-end jqerey and some code reading, for the relearning and application of trust, this is the planning
