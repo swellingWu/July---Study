@@ -1,0 +1,22 @@
+<body></body>
+<!-- 一个简单的纯运行时框架 -->
+<script src="./demo01.js"></script>
+<script>
+    // const obj = {
+    //     tag: 'div',
+    //     children: [{
+    //         tag: 'span',
+    //         children: 'hello world'
+    //     }]
+    // }
+
+    const html = `
+        <div>
+            <span>hello world</span>
+        </div>
+    `
+    //调用 Compiler 编译得到树型结构的数据对象
+    const obj = Compiler(html)
+    // 渲染到 body 下
+    Render(obj, document.body)
+</script>
